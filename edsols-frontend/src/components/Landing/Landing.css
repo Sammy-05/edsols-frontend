@@ -12,9 +12,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 20;
 }
 
 .container {
+    z-index: 20;
     height: 400px;
     display: flex;
     flex-wrap: nowrap;
@@ -23,6 +25,7 @@
 
 .card {
     width: 160px;
+    z-index: 20;
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
@@ -40,10 +43,12 @@
     /* color: white; */
     display: flex;
     flex-wrap: nowrap;
+    z-index: 20;
 }
 
 .card > .row > .icon {
     /* background: #223; */
+    z-index: 20;
     color: white;
     /* border-radius: 50%; */
     width: 300px;
@@ -71,22 +76,27 @@
 .description p {
     color: #b0b0ba;
     padding-top: 5px;
+    z-index: 20;
 }
 
 .description h4 {
+    z-index: 20;
     text-transform: uppercase;
 }
 
 input {
     display: none;
+    z-index: 20;
 }
 
 input:checked + label {
     width: 335px;
+    z-index: 20;
 }
 
 input:checked + label .description {
     opacity: 1 !important;
+    z-index: 20;
     transform: translateY(0) !important;
 }
 
