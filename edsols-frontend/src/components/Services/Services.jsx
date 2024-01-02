@@ -1,4 +1,5 @@
 import pattern2 from "../../assets/pattern2.png";
+import services from "../../assets/services-full.png";
 const Services = () => {
   return (
     <div className="mx-20 h-[180vh] mt-36 " id="services-section">
@@ -6,42 +7,67 @@ const Services = () => {
         <h1 className="font-bold text-5xl text-heading">OUR SERVICES</h1>
         <div className=" bg-subheading w-44 h-2 mt-3"></div>
       </div>
-      <div className="pt-16 mx-28">
+      <div className="flex items-center justify-center">
+        <img src={services} alt="" className="scale-90"/>
+      </div>
+      {/* <div className="pt-16 mx-28">
         <div className="flex  w-[100%] h-[100%]">
           <img src={pattern2} alt="" className="absolute" />
         </div>
-        <div className="absolute flex flex-col w-[12%] text-xl gap-y-5 mt-[7%] ml-[0%]">
+        <div className="absolute flex flex-col w-[15%] text-2xl gap-y-5 mt-[7%] ml-[0%]">
           <p className="text-secondary font-bold ">Customized Curriculum</p>
-          <p className="text-text">Tailored curriculum development from FSI to Class VIII based on your school's unique needs.</p>
+          <p className="text-text">
+            Tailored curriculum development from FSI to Class VIII based on your
+            school's unique needs.
+          </p>
         </div>
-        <div className="absolute flex flex-col w-[14%] text-xl gap-y-5 mt-[16%] ml-[21.5%]">
+        <div className="absolute flex flex-col w-[17%] text-2xl gap-y-5 mt-[16%] ml-[21.5%]">
           <p className="text-secondary font-bold ">Progression Goals</p>
-          <p className="text-text">Seamless progression across grade levels for a clear understanding of academic milestones.</p>
+          <p className="text-text">
+            Seamless progression across grade levels for a clear understanding
+            of academic milestones.
+          </p>
         </div>
-        <div className="absolute flex flex-col w-[14%] text-xl gap-y-5 mt-[3%] ml-[42.5%]">
-          <p className="text-secondary font-bold ">Weekly Plans and Lesson Plans</p>
-          <p className="text-text">Access meticulously crafted lesson plans and weekly planning resources, focusing on differentiation to cater to diverse learning preferences.</p>
+        <div className="absolute flex flex-col w-[16%] text-2xl gap-y-5 mt-[3%] ml-[42.5%]">
+          <p className="text-secondary font-bold ">
+            Weekly Plans and Lesson Plans
+          </p>
+          <p className="text-text">
+            Access meticulously crafted lesson plans and weekly planning
+            resources, focusing on differentiation to cater to diverse learning
+            preferences.
+          </p>
         </div>
-        <div className="absolute flex flex-col w-[14%] text-xl gap-y-5 mt-[20.5%] ml-[63%]">
+        <div className="absolute flex flex-col w-[15%] text-2xl gap-y-5 mt-[20.5%] ml-[63%]">
           <p className="text-secondary font-bold ">Resources</p>
-          <p className="text-text">Explore a rich repository of subject-wise resources designed to complement the curriculum, making learning engaging and fun.</p>
+          <p className="text-text">
+            Explore a rich repository of subject-wise resources designed to
+            complement the curriculum, making learning engaging and fun.
+          </p>
         </div>
-        <div className="absolute flex flex-col w-[16%] text-xl gap-y-5 mt-[43%] ml-[38.5%]">
+        <div className="absolute flex flex-col w-[16%] text-2xl gap-y-5 mt-[43%] ml-[38.5%]">
           <p className="text-secondary font-bold ">Teacher Training</p>
-          <p className="text-text">Empower educators with need-based and general training modules for a more effective learning experience.</p>
+          <p className="text-text">
+            Empower educators with need-based and general training modules for a
+            more effective learning experience.
+          </p>
         </div>
-        <div className="absolute flex flex-col w-[12%] text-xl gap-y-5 mt-[54%] ml-[11.5%]">
+        <div className="absolute flex flex-col w-[19%] text-2xl gap-y-5 mt-[54%] ml-[11.5%]">
           <p className="text-secondary font-bold ">Follow-up and Impact</p>
-          <p className="text-text">Continuous follow-up and impact assessments to ensure sustained improvement.</p>
+          <p className="text-text">
+            Continuous follow-up and impact assessments to ensure sustained
+            improvement.
+          </p>
         </div>
-        <div className="absolute flex flex-col w-[17%] text-xl gap-y-5 mt-[67%] ml-[38%]">
+        <div className="absolute flex flex-col w-[17%] text-2xl gap-y-5 mt-[67%] ml-[38%]">
           <p className="text-secondary font-bold ">Continous Improvement</p>
-          <p className="text-text">Our commitment to ongoing enhancement to meet evolving educational needs.</p>
+          <p className="text-text">
+            Our commitment to ongoing enhancement to meet evolving educational
+            needs.
+          </p>
         </div>
-        </div>
-        
-      </div>
-  
+      </div> */}
+    </div>
   );
 };
 

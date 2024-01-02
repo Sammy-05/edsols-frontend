@@ -1,6 +1,9 @@
 // import Landing from "./Landing";
 import React, { useState } from "react";
 import "./Landing.css";
+
+
+
 const Landing = () => {
   const [isHovered, setIsHovered] = useState(0);
 
@@ -78,7 +81,7 @@ const Landing = () => {
                 {isHovered === 1 ? (
                   <></>
                 ) : (
-                  <div className="icon text-2xl -rotate-90 font-bold">
+                  <div className="icon text-3xl -rotate-90 font-bold">
                     ABOUT US
                   </div>
                 )}
@@ -122,7 +125,7 @@ const Landing = () => {
                 {isHovered === 2 ? (
                   <></>
                 ) : (
-                  <div className="icon text-2xl -rotate-90 font-bold">
+                  <div className="icon text-3xl -rotate-90 font-bold">
                     OUR SERVICES
                   </div>
                 )}
@@ -168,7 +171,7 @@ const Landing = () => {
                 {isHovered === 3 ? (
                   <></>
                 ) : (
-                  <div className="icon text-2xl -rotate-90 font-bold">
+                  <div className="icon text-[27px] -rotate-90 font-bold">
                     WHY CHOOSE EDSOLS
                   </div>
                 )}

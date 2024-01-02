@@ -23,11 +23,10 @@
 
 .card {
     width: 160px;
-    border-radius: .75rem;
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 1.4rem;
     margin: 0 10px;
     display: flex;
     flex-direction: column;
@@ -92,14 +91,14 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('../../assets/owner.jpg');
+    background-image: url('../../assets/pic1.png');
     opacity: 0.8;
 }
 .card[for="c2"] {
-    background-image: url('../../assets/owner.jpg');
+    background-image: url('../../assets/pic2.png');
 }
 .card[for="c3"] {
-    background-image: url('../../assets/owner.jpg');
+    background-image: url('../../assets/pic3.png');
 }
 .card[for="c4"] {
     background-image: url('../../assets/owner.jpg');

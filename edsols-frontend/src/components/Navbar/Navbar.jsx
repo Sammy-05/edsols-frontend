@@ -3,11 +3,46 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
+  function scrollToAbout(event) {
+    event.preventDefault();
+
+    const targetElement = document.getElementById("about-section");
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }
+  function scrollToServices(event) {
+    event.preventDefault();
+
+    const targetElement = document.getElementById("services-section");
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }
   return (
-    <div className="z-0 mx-20 grid pb-10 mt-12 justify-center items-center grid-cols-7">
+    <div className="z-0 mx-20 grid pb-10 justify-center items-center grid-cols-7">
       <div className="col-span-1 flex">
 
-        <div className="w-48 h-8 bg-circles rounded-3xl">
+        {/* <div className="w-48 h-8 bg-circles rounded-3xl">
           <div className="flex justify-start">
             <FontAwesomeIcon
               icon={faMagnifyingGlass}
@@ -20,13 +55,13 @@ const Navbar = () => {
               className="w-40 h-8 rounded-3xl bg-circles text-sm pl-2 text-subheading block focus:outline-none placeholder:text-text"
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="col-span-4 flex gap-x-16  text-subheading font-bold items-center justify-center">
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Services</p>
-        <p>Contact Us</p>
+        <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToTop}>Home</p>
+        <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToAbout}>About Us</p>
+        <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToServices}>Services</p>
+        <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToBottom}>Contact Us</p>
       </div>
       <div className="col-span-2">
         <div className="flex gap-x-3 ">
