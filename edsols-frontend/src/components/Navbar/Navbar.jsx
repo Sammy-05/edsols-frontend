@@ -39,7 +39,7 @@ const Navbar = () => {
     }
   }
   return (
-    <div className="z-0 mx-20 grid pb-10 justify-center items-center grid-cols-7">
+    <div className="z-0 mx-10 grid pb-10 justify-center items-center grid-cols-8">
       <div className="col-span-1 flex">
 
         {/* <div className="w-48 h-8 bg-circles rounded-3xl">
@@ -57,14 +57,14 @@ const Navbar = () => {
           </div>
         </div> */}
       </div>
-      <div className="col-span-4 flex gap-x-16  text-subheading font-bold items-center justify-center">
+      <div className="col-span-4 flex gap-x-24  text-subheading font-bold items-center justify-end">
         <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToTop}>Home</p>
         <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToAbout}>About Us</p>
         <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToServices}>Services</p>
         <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToBottom}>Contact Us</p>
       </div>
-      <div className="col-span-2">
-        <div className="flex gap-x-3 ">
+      <div className="col-span-3">
+        <div className="flex gap-x-3 justify-end">
           <div className="flex flex-col items-end justify-center">
             <p className="text-3xl text-edsols font-extrabold">EDSOLS</p>
             <p className="text-subheading">Complete Curriculum Solution</p>

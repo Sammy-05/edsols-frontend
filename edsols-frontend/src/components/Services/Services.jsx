@@ -2,7 +2,7 @@ import pattern2 from "../../assets/pattern2.png";
 import services from "../../assets/services-full.png";
 const Services = () => {
   return (
-    <div className="mx-20 h-[180vh] mt-36 " id="services-section">
+    <div className="mx-20 h-[180vh] mt-64" id="services-section">
       <div className="">
         <h1 className="font-bold text-5xl text-heading">OUR SERVICES</h1>
         <div className=" bg-subheading w-44 h-2 mt-3"></div>
