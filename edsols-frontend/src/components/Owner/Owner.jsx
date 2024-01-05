@@ -21,26 +21,26 @@ const About = () => {
 
         <div className="mr-20 flex flex-col w-2/3 justify-end">
           <div className="">
-            <h1 className="font-bold text-5xl text-heading pb-1">About the</h1>
-            <h1 className="font-bold text-5xl text-subheading pt-1">Founder</h1>
-            <div className=" bg-subheading w-32 h-2 mt-3"></div>
+            <h1 className="font-bold text-4xl text-heading pb-1">About the</h1>
+            <h1 className="font-bold text-4xl text-subheading pt-1">Founder</h1>
+            <div className=" bg-subheading w-32 h-1 mt-3"></div>
           </div>
           <div className="py-7">
-            <h3 className="text-heading font-semibold text-2xl">Nida Nayyar</h3>
+            <h3 className="text-heading font-semibold text-xl">Nida Nayyar</h3>
           </div>
           <div>
             <ul className="list-disc pl-6 text-subheading">
-              <div className="flex flex-row items-center text-2xl">
+              <div className="flex flex-row items-center text-lg">
                 <li className="text-4xl"></li>
                 <p className="py-2 text-text">
                   MSc. Industrial, and Organizational Psychology
                 </p>
               </div>
-              <div className="flex flex-row items-center text-2xl">
+              <div className="flex flex-row items-center text-lg">
                 <li className="text-4xl"></li>
                 <p className="py-2 text-text">Bsc. Kinnaird College</p>
               </div>
-              <div className="flex flex-row items-center text-2xl">
+              <div className="flex flex-row items-center text-lg">
                 <li className="text-4xl"></li>
                 <p className="py-2 text-text">LlB. University of London</p>
               </div>

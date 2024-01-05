@@ -58,7 +58,7 @@ const Landing = () => {
             Crafting Knowledge,
           </h1>
           <h1 className="text-5xl font-bold text-heading">Shaping Futures:</h1>
-          <p className="text-2xl pt-5">
+          <p className="text-xl pt-5">
             Complete custom made curriculum solution provider
           </p>
         </div>
@@ -95,8 +95,8 @@ const Landing = () => {
                   className="flex flex-col w-1/4"
                   onMouseEnter={handleMouseEnter1}
                 >
-                  <h1 className="text-3xl font-bold text-heading">ABOUT US</h1>
-                  <div className=" bg-subheading w-44 h-1 mt-1"></div>
+                  <h1 className="text-2xl font-bold text-heading">ABOUT US</h1>
+                  <div className=" bg-subheading w-44 h-[2px] mt-1"></div>
 
                   <p className="mt-5">
                     Welcome to Edsols, where learning comes alive with our
@@ -140,15 +140,13 @@ const Landing = () => {
                   onMouseEnter={handleMouseEnter2}
                 >
                   <div className="bg-white">
-                    <h1 className="text-3xl font-bold text-heading">
+                    <h1 className="text-2xl font-bold text-heading">
                       OUR SERVICES
                     </h1>
-                    <div className=" bg-subheading w-44 h-1 mt-1"></div>
+                    <div className=" bg-subheading w-44 h-[2px] mt-1"></div>
 
                     <p className="mt-5">
-                      Welcome to Edsols, where learning comes alive with our
-                      comprehensive curriculum development that meets global
-                      education standards.
+                    We provide comprehensive educational solutions that encompass a variety of services. These services include curriculum development, lesson plans, workshops, one-on-one consultations, and tailored solutions aligned with school improvement plans. Whether you opt for one of the listed services or express a specific requirement for your organisation or school, we will customise all our services to meet your unique needs and context.
                     </p>
                   </div>
                   <a
@@ -188,10 +186,10 @@ const Landing = () => {
                   onMouseEnter={handleMouseEnter3}
                 >
                   <div className="bg-white">
-                    <h1 className="text-3xl font-bold text-heading">
+                    <h1 className="text-2xl font-bold text-heading">
                       WHY CHOOSE EDSOLS
                     </h1>
-                    <div className=" bg-subheading w-44 h-1 mt-1"></div>
+                    <div className=" bg-subheading w-44 h-[2px] mt-1"></div>
 
                     <p className="mt-5">
                       Opt for our curriculum expertise, where a dedicated team
@@ -212,7 +210,7 @@ const Landing = () => {
 
             {isHovered === 0 && (
               <div className="ml-20 flex flex-col">
-                <p className="w-3/4 text-2xl bg-white pt-5">
+                <p className="w-3/4 text-xl bg-white">
                   Welcome to Edsols, where learning comes alive with our
                   comprehensive curriculum development that meets global
                   education standards.

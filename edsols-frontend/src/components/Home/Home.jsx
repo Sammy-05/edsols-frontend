@@ -14,8 +14,8 @@ const Home = () => {
       <Landing />
       <About />
       <Services />
-      <Owner />
       <Quote />
+      <Owner />
       <Contact />
     </div>
   );

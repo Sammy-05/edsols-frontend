@@ -59,7 +59,7 @@ const Navbar = () => {
       </div>
       <div className="col-span-4 flex gap-x-24  text-subheading font-bold items-center justify-end">
         <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToTop}>Home</p>
-        <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToAbout}>About Us</p>
+        <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToAbout}>Why Choose Edsols</p>
         <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToServices}>Services</p>
         <p className="hover:underline underline-offset-2 hover:cursor-pointer" onClick={scrollToBottom}>Contact Us</p>
       </div>
