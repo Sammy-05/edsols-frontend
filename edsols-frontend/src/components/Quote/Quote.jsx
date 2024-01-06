@@ -3,7 +3,7 @@ import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 
 const Quote = () => {
   return (
-    <div className="mx-[28%] flex gap-x-5 pt-16">
+    <div className="mx-[28%] flex gap-x-5 pt-32">
         <div className="absolute">
 
       <FontAwesomeIcon

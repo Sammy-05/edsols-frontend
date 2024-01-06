@@ -2,7 +2,7 @@ import { ABT1, ABT2 } from "../../data/data.js";
 
 const About = () => {
   return (
-    <div className="mt-20" >
+    <div className="mt-32" >
       {/* <div className="ml-20">
         <h1 className="font-bold text-5xl text-heading">ABOUT US</h1>
         <div className=" bg-subheading w-44 h-2 mt-3"></div>
