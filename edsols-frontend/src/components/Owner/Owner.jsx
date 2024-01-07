@@ -8,15 +8,10 @@ const About = () => {
           <div className="absolute rounded-r-[105px] border-t-4 border-b-4 border-r-4 border-solid border-secondary w-[26%] h-[70%]"></div>
           <div className="absolute rounded-r-[105px] border-t-4 border-b-4 border-r-4 border-solid border-secondary w-[22%] h-[85%]"></div>
 
-          <div className="flex flex-row items-center pb-24">
-            <div className="absolute w-[15%] h-[30%] rounded-r-full bg-subheading "></div>
+          <div className="absolute w-[15%] h-[30%] rounded-r-full bg-subheading mb-24"></div>
+          <div className="flex h-full items-end z-20 ml-20">
+            <img src={owner} alt="" className="" />
           </div>
-
-          <img
-            src={owner}
-            alt=""
-            className="mt-64 absolute ml-20 w-inherit h-inherit w-[26%] h-[68%]"
-          />
         </div>
 
         <div className="mr-20 flex flex-col w-2/3 justify-end">
@@ -61,8 +56,7 @@ const About = () => {
                 {restOfWords}
               </p>
             );
-          }
-          else{
+          } else {
             return <p className="text-lg pb-4">{item.para}</p>;
           }
         })}
