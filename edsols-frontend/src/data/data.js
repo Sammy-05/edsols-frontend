@@ -51,7 +51,7 @@ const ABT2 = [
 const Founder = [
   {
     id: 1,
-    para: "Nida Nayyar, the visionary behind Edsols- Complete Curriculum Solutions, is a dedicated constructivist educationist with over 15 years of experience as a homeroom teacher, curriculum developer, and academic coach. With a passion for hands-on learning, Nida has introduced STEAM programs in various schools.Having taught in international schools, Nida recognizes the importance of enhancing public education in Pakistan. She strongly believes that every child in the nation deserves equal opportunities and a fundamental right to quality education."
+    para: "Nida Nayyar, the brains/ mind behind Edsols- Complete Curriculum Solutions, is a dedicated Constructivist Educator with over 15 years of experience as a homeroom teacher, curriculum developer, and academic coach. With a passion for hands-on learning, Nida has introduced STEAM programs in various schools. Having taught in international schools, Nida recognizes the importance of enhancing public education in Pakistan. She strongly believes that every child in the nation deserves equal opportunities and a fundamental right to quality education."
   },
   { 
     id: 2,
@@ -59,10 +59,9 @@ const Founder = [
   },
   {
     id: 3,
-    para: "Nida's impact goes beyond the classroom. She has crafted manuals and guidelines specifically designed for new teachers. In her vision for the future, she sees the education sector as realm of equal opportunities for everyone. While acknowledging the progress made, she emphasizes the need for continued efforts to create a more inclusive and accessible educational landscape." 
+    para: "Nida's impact goes beyond the classroom. She has crafted manuals and guidelines specifically designed for new teachers. She believes that the education sector is a domain of equal opportunities. While acknowledging the progress made, she emphasizes the need for continued efforts to create a more inclusive and accessible educational landscape." 
   }
 ]
-
 
 export { ABT1, ABT2, Founder };
 
