@@ -51,7 +51,7 @@ const Landing = () => {
   }
 
   return (
-    <div>
+    <div className="hidden md:block">
       <div className="absolute mx-20 z-20">
         <div>
           <h1 className="text-5xl font-bold text-heading">

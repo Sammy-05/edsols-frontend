@@ -39,7 +39,8 @@ const Navbar = () => {
     }
   }
   return (
-    <div className="z-0 mx-10 grid pb-10 justify-center items-center grid-cols-8">
+    
+    <div className="z-0 mx-10 grid pb-10 justify-center items-center grid-cols-8 ">
       <div className="col-span-1 flex">
 
         {/* <div className="w-48 h-8 bg-circles rounded-3xl">

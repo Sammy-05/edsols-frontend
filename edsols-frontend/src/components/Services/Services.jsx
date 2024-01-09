@@ -2,13 +2,13 @@ import pattern2 from "../../assets/pattern2.png";
 import services from "../../assets/services-full.png";
 const Services = () => {
   return (
-    <div className="mx-20 h-[150vh] mt-48" id="services-section">
+    <div className="mx-5 md:mx-20 md:h-[150vh] mt-20 md:mt-48" id="services-section">
       <div className="">
-        <h1 className="font-bold text-4xl text-heading">OUR SERVICES</h1>
-        <div className=" bg-subheading w-44 h-1 mt-3"></div>
+        <h1 className="font-bold md:text-4xl text-heading">OUR SERVICES</h1>
+        <div className=" bg-subheading w-20 md:w-44 h-[2px] md:h-1 mt-1 md:mt-3"></div>
       </div>
-      <div className="flex items-center justify-center pt-10">
-        <img src={services} alt="" className="scale-75 origin-top"/>
+      <div className="flex items-center justify-center pt-6 md:pt-20">
+        <img src={services} alt="" className="md:scale-75 origin-top"/>
       </div>
       {/* <div className="pt-16 mx-28">
         <div className="flex  w-[100%] h-[100%]">
