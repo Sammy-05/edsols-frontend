@@ -51,7 +51,7 @@ const ABT2 = [
 const Founder = [
   {
     id: 1,
-    para: "Nida Nayyar, the brains/ mind behind Edsols- Complete Curriculum Solutions, is a dedicated Constructivist Educator with over 15 years of experience as a homeroom teacher, curriculum developer, and academic coach. With a passion for hands-on learning, Nida has introduced STEAM programs in various schools. Having taught in international schools, Nida recognizes the importance of enhancing public education in Pakistan. She strongly believes that every child in the nation deserves equal opportunities and a fundamental right to quality education."
+    para: "Nida Nayyar, the brains behind Edsols- Complete Curriculum Solutions, is a dedicated Constructivist Educator with over 15 years of experience as a homeroom teacher, curriculum developer, and academic coach. With a passion for hands-on learning, Nida has introduced STEAM programs in various schools. Having taught in international schools, Nida recognizes the importance of enhancing public education in Pakistan. She strongly believes that every child in the nation deserves equal opportunities and a fundamental right to quality education."
   },
   { 
     id: 2,
