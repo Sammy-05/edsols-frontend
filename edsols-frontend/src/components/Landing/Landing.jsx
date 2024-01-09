@@ -7,13 +7,13 @@ const Landing = () => {
   const [isHovered, setIsHovered] = useState(0);
   
   const handleClick1 = () => {
-    window.innerWidth < 768 ? setIsHovered(1) : (() => {})();
+    window.innerWidth < 768 ? (isHovered === 1 ? setIsHovered(0) :setIsHovered(1)): (() => {})();
   };
   const handleClick2= () => {
-    window.innerWidth < 768 ? setIsHovered(2) : (() => {})();
+    window.innerWidth < 768 ? (isHovered === 2 ? setIsHovered(0) :setIsHovered(2)): (() => {})();
   };
   const handleClick3 = () => {
-    window.innerWidth < 768 ? setIsHovered(3) : (() => {})();
+    window.innerWidth < 768 ? (isHovered === 3 ? setIsHovered(0) :setIsHovered(3)): (() => {})();
   };
   const handleMouseEnter1 = () => {
     window.innerWidth > 768 ? setIsHovered(1) : (() => {})();
