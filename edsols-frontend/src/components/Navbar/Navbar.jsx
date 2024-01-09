@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
@@ -39,7 +39,7 @@ const Navbar = () => {
     }
   }
   return (
-    
+    // {window.innerWidth > 768 ? ():()}
     <div className="z-0 mx-10 grid pb-10 justify-center items-center grid-cols-8 ">
       <div className="col-span-1 flex">
 
