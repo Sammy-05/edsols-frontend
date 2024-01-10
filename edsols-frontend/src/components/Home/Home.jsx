@@ -10,9 +10,9 @@ import NavbarPhone from "../NavbarPhone/NavbarPhone";
 const Home = () => {
   return (
     <div>
-      {window.innerWidth > 768 ? <Navbar /> : <NavbarPhone/>}
+      {/* {window.innerWidth > 768 ? <Navbar /> : <NavbarPhone/>} */}
 
-      {/* <Navbar/> */}
+      <Navbar/>
       <Landing />
       <About />
       <Services />

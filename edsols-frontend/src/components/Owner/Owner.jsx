@@ -3,7 +3,8 @@ import owner from "../../assets/owner.jpg";
 const About = () => {
   return (
     <div className="">
-      <div className="flex flex-col md:flex-row pt-16 gap-x-5 md:gap-x-20 md:h-[115vh] ">
+      {/* <div className="flex flex-col md:flex-row pt-16 gap-x-5 md:gap-x-20 md:h-[115vh] "> */}
+      <div className="flex flex-row pt-16 gap-x-5 md:gap-x-20 md:h-[115vh] ">
         <div className="flex flex-col justify-center md:w-1/3">
           <div className="absolute rounded-r-[105px] border-t-4 border-b-4 border-r-4 border-solid border-secondary md:w-[26%] md:h-[70%] w-[60%] h-[41%]"></div>
           <div className="absolute rounded-r-[105px] border-t-4 border-b-4 border-r-4 border-solid border-secondary md:w-[22%] md:h-[85%] w-[50%] h-[48%]"></div>
