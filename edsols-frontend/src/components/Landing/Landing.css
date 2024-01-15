@@ -64,7 +64,7 @@
     margin-top: 50px;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .card{
         width: 90%;
         height: 80px;
@@ -90,7 +90,7 @@
         padding-top: 50px;
     }
     
-} */
+}
 
 /* .card > .row > .description {
     display: flex;
